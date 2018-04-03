@@ -1,0 +1,269 @@
+html {
+}
+
+body {
+    background-color      : #c791b9;
+    font-family           : 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size             : 120%;
+    height                : 100%;
+    background-image      : url("./image/eye-p.png");
+    background-repeat     : no-repeat;
+    background-position   : right bottom;
+    background-attachment : fixed;
+    margin                : 0px;
+    padding               : 0px;
+}
+
+@font-face {
+    font-family: "title";
+    src: url(CaviarDreams.ttf);
+}
+
+/* ======================================================================
+   href
+   ====================================================================== */
+
+a {
+    color : #ac002b;
+}
+
+a:hover, a:active {
+    text-shadow : 0 0 1.05em #a5a5a5;
+}
+
+/* ======================================================================
+   Container
+   ====================================================================== */
+
+#container {
+    color                              : #1a1a1a;
+    background-color                   : white;
+    max-width                          : 70%;
+    height                             : 100%;
+    margin                             : 20px 0px;
+    padding                            : 15px;
+    -webkit-border-top-right-radius    : 10px;
+    -webkit-border-bottom-right-radius : 10px;
+    -moz-border-radius-topright        : 10px;
+    -moz-border-radius-bottomright     : 10px;
+    border-top-right-radius            : 10px;
+    border-bottom-right-radius         : 10px;
+}
+
+#container p {
+    margin: 1em 0;
+}
+
+/* ======================================================================
+   h1. Title
+   ====================================================================== */
+
+h1 {
+    font-family    : "title", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-weight    : 400;
+    letter-spacing : 1px;
+    line-height    : 20px;
+    margin         : 30px 0;
+    text-transform : uppercase;
+    text-align     : center;
+    font-size      : 300%;
+}
+
+/* ======================================================================
+   h2.
+   ====================================================================== */
+
+h2 {
+    font-size          : 150%;
+    padding            : 1px 0.5em;
+    font-family        : "Century Gothic", "Trebuchet MS", sans-serif;
+    font-variant       : small-caps;
+    border-bottom      : 1px solid #0E0E10;
+    padding            : 3px 10px;
+    font-weight        : bold;
+    font-size          : 120%;
+}
+
+/* ======================================================================
+   Subtitle
+   ====================================================================== */
+
+.subtitle {
+    text-align : center;
+    font-size  : 110%;
+}
+
+/* ======================================================================
+   Syntax
+   ====================================================================== */
+
+.syntax {
+    font-family : Monaco, Consolas, "Bitstream Vera Sans Mono", monospace;
+}
+
+.syntax-comment {
+    color : #4a4a4a;
+}
+
+/* ======================================================================
+   Donation
+   ====================================================================== */
+
+.block-content {
+    padding : 0 16px;
+}
+
+/* ======================================================================
+   Products
+   ====================================================================== */
+
+#products-menu {
+    list-style-position : inside;
+    list-style-type     : square;
+    margin              : 5px 0px;
+    padding             : 0 16px;
+}
+
+#products-menu li {
+    margin : 7px 0;
+}
+
+#about-products h3 {
+    color       : #3a3a3a;
+    margin      : 5px 4px 13px 4px;
+    font-size   : 100%;
+}
+
+#about-products > div {
+    border-left  : 3px solid #c791b9;
+    padding      : 3px 10px;
+    margin       : 20px 5px;
+}
+
+.product {
+    border-left  : 3px solid #9c5288;
+    padding-left : 10px;
+    margin       : 14px 0px;
+    /* font-size   : 90%; */
+}
+
+.product > a > img {
+    border : none;
+}
+
+.product h4 {
+    font-family : "Gill Sans", Helvetica, Arial, sans-serif;
+    margin      : 10px 0 5px 4px;
+    font-size   : 140%;
+}
+
+.product p {
+    max-width   : 80%;
+    min-width   : 500px;
+}
+
+/* ======================================================================
+   Vio
+   ====================================================================== */
+
+dl {
+    margin  : 0 0;
+    padding : 10px 5px;
+}
+
+dl dt {
+    color       : #3a3a3a;
+    padding     : 5px 0;
+    font-weight : bold;
+    text-indent : 1em;
+    line-height : 120%;
+}
+
+dl dd {
+    margin      : 0;
+    padding     : 6px 0 6px 4em;
+    line-height : 120%;
+}
+
+dl dd ul {
+    margin       : 0;
+    padding-left : 0;
+}
+
+dl dd li {
+    list-style-position : inside;
+    list-style-type     : square;
+    margin              : 4px 0;
+}
+
+/* ======================================================================
+   General
+   ====================================================================== */
+
+.accent {
+    font-weight : bold;
+}
+
+.comment {
+    color : #656565;
+}
+
+/* ======================================================================
+   Language
+   ====================================================================== */
+
+#langage {
+    font-size       : 90%;
+    text-align      : right;
+    margin          : 0px;
+}
+
+#langage a {
+    text-decoration : none;
+}
+
+/* ======================================================================
+   Icons
+   ====================================================================== */
+
+.product-link a, .exlinks a {
+    padding-left        : 20px;
+    background-repeat   : no-repeat;
+    background-position : left center;
+}
+
+.product-link {
+    margin : 2px 0 1em 5px;
+}
+
+.product-link a {
+    background-image : url('icons/chain.png');
+}
+
+.product-link a:hover {
+    background-image : url('icons/chain-arrow.png');
+}
+
+.exlinks li {
+    margin              : 8px 0;
+    list-style-type     : none;
+    list-style-position : outside;
+}
+
+.blogspot    { background-image : url('icons/blogspot.ico'); background-size: 16px 16px; }
+.hatena      { background-image : url('icons/hatena16.ico'); }
+.twitter     { background-image : url('icons/twitter16.ico'); }
+.github      { background-image : url('icons/github16.png'); }
+.userscripts { background-image : url('icons/userscripts16.png'); }
+
+
+/* ======================================================================
+   Copyrihgts
+   ====================================================================== */
+
+.copyright {
+    font-size  : 80%;
+    color      : #505050;
+    margin     : 3px 0px;
+    text-align : right;
+}

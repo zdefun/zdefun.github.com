@@ -1,0 +1,166 @@
+html {
+}
+
+body {
+    background-color : #f9f9f9;
+    font-family      : 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size        : 12px;
+    height           : 100%;
+}
+
+.container {
+}
+
+a {
+    text-decoration : none;
+    color           : #e64460;
+    font-weight     : bold;
+}
+
+a, a:link, a:visited {
+}
+
+a:hover, a:active {
+    text-decoration : none;
+    text-shadow     : 0 0 1.05em #7d7d7d;
+}
+
+h1 {
+    text-align    : center;
+    font-size     : 200%;
+    text-shadow   : 0 0 0.5em #b1b1b1;
+    color         : #111;
+}
+
+.head-accent {
+    color : #ff007f;
+}
+
+#head-subtitle, #head-link, #copyright {
+    text-align : center;
+    color      : #849eaa;
+}
+
+/* ============================================================
+   REPL Body
+   ============================================================ */
+
+#main-repl, #main-repl-input {
+    font-family      : Monaco, Consolas, "Bitstream Vera Sans Mono", monospace;
+    color            : #ddd;
+    font-weight      : bold;
+    background-color : #111;
+}
+
+#main-repl {
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    -o-border-radius      : 3px;
+    border-radius         : 3px;
+    padding               : 10px 15px;
+}
+
+#main-repl-input-row {
+    width : 100%;
+}
+
+#main-repl-input-row:before, .repl-input:before {
+    content : "> "
+}
+
+#main-repl-input {
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    -o-border-radius      : 3px;
+    border-radius         : 3px;
+    background-color      : #303030;
+    border                : 0px solid #6f6f6f;
+    width                 : 95%;
+    padding               : 4px;
+}
+
+/* ============================================================
+   REPL Helper
+   ============================================================ */
+
+#main-repl-helper-area {
+    margin-top    : 20px;
+    margin-bottom : 10;
+}
+
+#main-repl-helpers, #main-repl-snippets {
+    margin  : 0;
+    padding : 0;
+}
+
+#main-repl-helpers li, #main-repl-snippets li {
+    font-size             : 11px;
+    cursor                : pointer;
+    display               : inline-block;
+    margin                : 2px;
+    padding               : 3px;
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    -o-border-radius      : 3px;
+    border-radius         : 3px;
+    border                : 1px solid #6f6f6f;
+}
+
+#main-repl-helpers li {
+    background-color : #341e59;
+}
+
+#main-repl-helpers li:hover {
+    background-color : #250954;
+}
+
+#main-repl-snippets li {
+    background-color : #1e5934;
+}
+
+#main-repl-snippets li:hover {
+    background-color : #095425;
+}
+
+
+/* ============================================================
+   Messages
+   ============================================================ */
+
+#main-repl-result-area pre {
+    white-space : -moz-pre-wrap;
+    white-space : -pre-wrap;
+    white-space : -o-pre-wrap;
+    white-space : pre-wrap;
+    word-wrap   : break-word;
+}
+
+.repl-input {
+    color: #888;
+    border-bottom: 1px solid #333333;
+    padding-bottom : 3px;
+}
+
+.repl-result {
+    color       : #97b5f1;
+    font-weight : bold;
+}
+
+.repl-output {
+    color       : #ddd;
+    font-weight : bold;
+}
+
+.repl-error {
+    color       : #e64460;
+    font-weight : bold;
+}
+
+input {
+    margin : auto 5px;
+}
+
+#copyright {
+    text-align : right;
+    padding    : 10px;
+}
